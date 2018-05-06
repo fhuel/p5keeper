@@ -1,0 +1,30 @@
+{
+  "name": "p5keeper",
+  "version": "1.0.0",
+  "description": "A front-end manager for organizing P5 projects",
+  "main": "bin/app.js",
+  "preferGlobal": true,
+  "bin": {
+    "p5k": "bin/app.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fhuel/p5keeper.git"
+  },
+  "keywords": [
+    "p5"
+  ],
+  "author": "Manuele Capacci (http://manuelecapacci.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fhuel/p5keeper/issues"
+  },
+  "homepage": "https://github.com/fhuel/p5keeper#readme",
+  "dependencies": {
+    "colors": "^1.2.4",
+    "commander": "^2.15.1"
+  }
+}
